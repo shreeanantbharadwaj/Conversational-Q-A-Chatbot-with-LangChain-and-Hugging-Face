@@ -42,15 +42,16 @@ Deployment:
 
 Ready for deployment on Hugging Face Spaces, enabling a broader audience to interact with the chatbot.
 📦 Project Structure
-bash
-Copy code
+```
 conversational-chatbot/
 │
 ├── app.py                # Main Streamlit application
 ├── requirements.txt      # Python dependencies
 ├── .env                  # Environment variables (not included in the repo)
 ├── README.md             # Project documentation
+```
 🛠️ Key Libraries
+
 LangChain: For message schema and context management.
 Streamlit: For building the user-friendly web app.
 Hugging Face: For deployment and showcasing the chatbot.
